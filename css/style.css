@@ -105,3 +105,45 @@ header {
     padding: 0px 6px;
     border: none;
 }
+
+/* section 2 */
+.app-section2 {
+    background: #012426;
+    padding: 96px 98px;
+    display: flex;
+    justify-content: center;
+}
+
+.app-section2-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 824px;
+}
+
+.app-section2-card-blue {
+    background-image: url(../images/pickPhotoBlue-section2-home.png);
+}
+
+.app-section2-card-red {
+    background-image: url(../images/pickPhotoRed-section2-home.png);
+}
+
+.app-section2-card {
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.app-section2-header {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+}

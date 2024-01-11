@@ -27,4 +27,19 @@
     .app-section1-header {
         font-size: 24px;
     }
+
+    /* section 2 */
+    .app-section2 {
+        padding: 32px 8px;
+    }
+
+    .app-section2-card {
+        height: 160px;
+    }
+
+    .app-section2-header {
+        top: 8px;
+        left: 8px;
+        font-size: 16px;
+    }
 }

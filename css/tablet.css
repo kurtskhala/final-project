@@ -12,4 +12,9 @@
     .app-section1-content {
         margin-top: 32px;
     }
+
+    /* section 2 */
+    .app-section2 {
+        padding: 48px 32px;
+    }
 }
