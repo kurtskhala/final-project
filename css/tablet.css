@@ -1,0 +1,15 @@
+@media (max-width: 745px) {
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* section 1 */
+    .app-section1 {
+        height: 400px;
+    }
+
+    .app-section1-content {
+        margin-top: 32px;
+    }
+}

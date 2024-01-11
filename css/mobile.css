@@ -1,0 +1,30 @@
+@media (max-width: 486px) {
+    /* container */
+    .container {
+        padding-top: 72px;
+    }
+
+    /* header */
+    header {
+        padding-inline: 8px;
+    }
+
+    .app-header-logo-link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .app-header-rightSide {
+        column-gap: 16px;
+    }
+
+    .app-header-rightSide button {
+        width: 32px;
+        height: 32px;
+    }
+
+    /* section 1 */
+    .app-section1-header {
+        font-size: 24px;
+    }
+}
