@@ -1,3 +1,19 @@
+@media (max-width: 530px) {
+    /* section 4 */
+    .app-section4 {
+        height: 168px;
+        row-gap: 24px;
+    }
+
+    .app-section4-form-input {
+        width: 320px;
+    }
+
+    .app-section4-header {
+        font-size: 24px;
+    }
+}
+
 @media (max-width: 486px) {
     /* container */
     .container {
@@ -41,5 +57,25 @@
         top: 8px;
         left: 8px;
         font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* section 4 */
+    .app-section4 {
+        padding-inline: 28px;
+    }
+    .app-section4-form {
+        width: 100%;
+    }
+    .app-section4-form-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 340px) {
+    /* section 4 */
+    .app-section4 {
+        padding-inline: 15px;
     }
 }

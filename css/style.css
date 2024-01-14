@@ -147,3 +147,133 @@ header {
     font-weight: 700;
     line-height: 37px;
 }
+
+/* section 3 */
+.app-section3 {
+    padding: 96px 94px;
+    background: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 64px;
+}
+
+.app-section3-header {
+    color: #05BCCA;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.app-section3-cards-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.app-section3-card {
+    border: 1px solid #05BCCA;
+    background: #2C4246;
+    display: flex;
+    width: 298px;
+    height: 400px;
+    padding: 8px 8px 16px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.app-section3-card-header {
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.app-section3-card-price_reviews {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-section3-card-reviews {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.app-section3-card-price_reviews-numb {
+    color: #A1C3C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.app-section3-card-price {
+    color: #05BCCA;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* section 4 */
+.app-section4 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    height: 320px;
+    background-image: url(../images/cover-section4-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-section4-header {
+    color: #05BCCA;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.app-section4-form-input {
+    border-radius: 8px;
+    border: 1px solid #F5F5F5;
+    background: rgba(44, 66, 70, 0.80);
+    height: 48px;
+    width: 480px;
+    padding-left: 8px;
+    color: #A1C3C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.app-section4-form {
+    position: relative;
+
+}
+
+.app-section4-form-button {
+    position: absolute;
+    border-radius: 0px 8px 8px 0px;
+    background: #05BCCA;
+    padding: 15px 14px 14px 14px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    border: none;
+    right: 0;
+}
