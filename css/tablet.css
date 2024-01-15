@@ -17,4 +17,9 @@
     .app-section2 {
         padding: 48px 32px;
     }
+
+    /* footer  */
+    footer {
+        padding-inline: 32px;
+    }
 }

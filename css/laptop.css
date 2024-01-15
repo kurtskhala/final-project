@@ -8,5 +8,9 @@
         display: block;
     }
 
+    /* footer  */
+    footer {
+        padding-inline: 96px;
+    }
 
 }
