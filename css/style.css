@@ -22,7 +22,7 @@ header {
     z-index: 1;
 }
 
-.app-header-xIcon-link, .app-header-burgerIcon-link {
+.app-header-xIcon-link, .app-header-burgerIcon-link, .app-header-xmarkIcon {
     display: none;
 }
 
@@ -66,6 +66,30 @@ header {
     width: 100%;
     height: 100%;
 }
+
+.app-header-menu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 16px 56px 16px 16px;
+    background: #05BCCA;
+    display: none;
+}
+
+.app-header-menu-nav-ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.app-header-menu-nav-li-link {
+    color: #C46A2B;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
  
 /* section 1 */
 .app-section1 {
@@ -487,4 +511,132 @@ footer {
     gap: 40px 20px;
     justify-content: center;
     flex-flow: row wrap;
+}
+
+/* contact */
+/* contact section 1 */
+.app-contact-section1 {
+    background-image: url(../images/contact\ cover.png);
+    height: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    padding: 96px 94px 0 94px;
+}
+
+.app-contact-section1-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 616px;
+}
+
+.app-contact-section1-header {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.app-contact-section1-contact-info {
+    display: flex;
+    justify-content: space-between;
+    background: #2C4246;
+    padding: 35px 40px;
+}
+
+.app-contact-section1-contact-info-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-contact-section1-contact-info-link {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.app-contact-section1-contact-info-link span {
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.app-contact-section1-bottom {
+    display: flex;
+    gap: 40px;
+}
+
+.app-contact-section1-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.app-contact-section1-form-name_mail {
+    display: flex;
+    column-gap: 8px;
+}
+
+.app-contact-section1-form-input {
+    padding: 6px 8px;
+    background: #2C4246;
+    width: 48.62%;
+    border: none;
+    color: #A1C3C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.app-contact-section1-form-input-textarea {
+    width: 100%;
+    height: 103px;
+    resize: none;
+}
+
+.app-contact-section1-form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #C46A2B;
+    border: none;
+    margin-top: 8px;
+}
+
+.app-contact-section1-bottom-social {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.app-contact-section1-bottom-social-icons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 16px;
+}
+
+.app-contact-section1-bottom-social-icons a{
+    width: 32px;
+    height: 32px;
+}
+
+.app-contact-section1-bottom-social-icons a img{
+    width: 100%;
+    height: 100%;
 }
