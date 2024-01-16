@@ -11,6 +11,7 @@
 
     .app-section4-header {
         font-size: 24px;
+        line-height: 32px;
     }
 
     /* footer  */
@@ -58,6 +59,7 @@
     /* section 1 */
     .app-section1-header {
         font-size: 24px;
+        line-height: 32px;
     }
 
     /* section 2 */
@@ -73,7 +75,31 @@
         top: 8px;
         left: 8px;
         font-size: 16px;
+        line-height: 24px;
     }
+
+    /* catalog section 2 */
+    .app-catalog-section2 {
+        padding: 32px 16px;
+        row-gap: 40px;
+    }
+
+    .app-catalog-section2-filter_sort-header .app-catalog-section2-filter_sort-header-text {
+        display: none;
+    }
+
+    .app-catalog-section2-sort-button span {
+        display: none;
+    }
+
+    .app-catalog-section2-sort-button {
+        padding-inline: 6px;
+    }
+
+    .app-catalog-section2-pages-button-text {
+        display: none;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -86,6 +112,17 @@
     }
     .app-section4-form-input {
         width: 100%;
+    }
+
+    /* catalog section 2 */
+    
+    .app-catalog-section2-cards-container .app-guitar-card {
+        width: 100%;
+    }
+
+    .app-guitar-card-img {
+        width: 100%;
+        height: 298px;
     }
 }
 

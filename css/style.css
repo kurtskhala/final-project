@@ -173,7 +173,7 @@ header {
     column-gap: 20px;
 }
 
-.app-section3-card {
+.app-guitar-card {
     border: 1px solid #05BCCA;
     background: #2C4246;
     display: flex;
@@ -185,7 +185,13 @@ header {
     gap: 16px;
 }
 
-.app-section3-card-header {
+.app-guitar-card-img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.app-guitar-card-header {
     color: #D9D9D9;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -193,20 +199,20 @@ header {
     line-height: 27px;
 }
 
-.app-section3-card-price_reviews {
+.app-guitar-card-price_reviews {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
 }
 
-.app-section3-card-reviews {
+.app-guitar-card-reviews {
     display: flex;
     align-items: center;
     column-gap: 8px;
 }
 
-.app-section3-card-price_reviews-numb {
+.app-guitar-card-price_reviews-numb {
     color: #A1C3C9;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
@@ -215,7 +221,7 @@ header {
     line-height: 15px;
 }
 
-.app-section3-card-price {
+.app-guitar-card-price {
     color: #05BCCA;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -353,4 +359,132 @@ footer {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* catalog */
+/* catalog section 1 */
+
+.app-catalog-section1 {
+    border-top: 2px solid #05BCCA;
+    background: #1A1A1A;
+    display: flex;
+    padding: 36px 0;
+    justify-content: center;
+}
+
+.app-catalog-section1-button {
+    background-color: transparent;
+    border: 1px solid #05BCCA;
+    padding: 18px 24px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.app-catalog-section1-button-active {
+    background: #A1C3C9;
+    color: #2C4246;
+}
+
+/* catalog section 2 */
+.app-catalog-section2 {
+    padding: 96px 94px;
+    background: #012426;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+.app-catalog-section2-filter_sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-catalog-section2-filter_sort-header {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.app-catalog-section2-filter_sort-header-text {
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.app-catalog-section2-sort {
+    display: flex;
+    column-gap: 32px;
+}
+
+.app-catalog-section2-sort-button {
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #A1C3C9;
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+    border: none;
+}
+
+.app-catalog-section2-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.app-catalog-section2-pages-button {
+    border-radius: 8px;
+    background: #C46A2B;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 16px;
+    border: none;
+}
+
+.app-catalog-section2-pages-next {
+    background: #05BCCA;
+}
+
+.app-catalog-section2-pages-button-text {
+    color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.app-catalog-section2-pages-info {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.app-catalog-section2-cards-container .app-guitar-card {
+    border: none;
+    padding: 0 0 16px 0;
+}
+
+.app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-header{
+    padding-inline: 8px;
+}
+
+.app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-price_reviews{
+    padding-inline: 8px;
+}
+
+.app-catalog-section2-cards-container {
+    display: flex;
+    gap: 40px 20px;
+    justify-content: center;
+    flex-flow: row wrap;
 }

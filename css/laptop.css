@@ -1,3 +1,20 @@
+@media (max-width: 1439.5px) {
+    /* catalog section 2 */
+    .app-guitar-card16,
+    .app-guitar-card15,
+    .app-guitar-card14,
+    .app-guitar-card13 {
+        display: none;
+    }
+}
+
+@media (max-width: 1135px) {
+    /* catalog section 2 */
+    .app-catalog-section2 {
+        padding-inline: 45px;
+    }
+}
+
 @media (max-width: 1025px) {
     /* header */
     .app-header-nav {
@@ -13,4 +30,14 @@
         padding-inline: 96px;
     }
 
+}
+
+@media (max-width: 1023.5px) {
+    /* catalog section 2 */
+    .app-guitar-card12,
+    .app-guitar-card11,
+    .app-guitar-card10,
+    .app-guitar-card9 {
+        display: none;
+    }
 }
