@@ -8,6 +8,21 @@
     }
 }
 
+@media (max-width: 1330px) {
+    /* section 3 */
+    .app-section3 {
+        padding-inline: 32px;
+    }
+
+    .app-section3-cards-container {
+        overflow-x: scroll;
+    }
+
+    .app-guitar-card-overflow {
+        flex: 1 0 298px;
+    }
+}
+
 @media (max-width: 1135px) {
     /* catalog section 2 */
     .app-catalog-section2 {
@@ -28,6 +43,35 @@
     /* footer  */
     footer {
         padding-inline: 96px;
+    }
+
+    /* section 3 */
+
+    .app-header-menu {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        padding: 16px 56px 16px 16px;
+        background: #05BCCA;
+    }
+
+    .show {
+        display: block;
+    }
+
+    
+    .app-header-menu-nav-ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    
+    .app-header-menu-nav-li-link {
+        color: #C46A2B;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
     }
 
 }

@@ -68,26 +68,7 @@ header {
 }
 
 .app-header-menu {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    padding: 16px 56px 16px 16px;
-    background: #05BCCA;
     display: none;
-}
-
-.app-header-menu-nav-ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
-}
-
-.app-header-menu-nav-li-link {
-    color: #C46A2B;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
 }
 
  
@@ -190,9 +171,22 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
+    position: relative;
+}
+
+.app-section3-header::after {
+    content: "";
+    width: 187.267px;
+    height: 2px;
+    background: #05BCCA;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110%;
 }
 
 .app-section3-cards-container {
+    width: 100%;
     display: flex;
     column-gap: 20px;
 }
@@ -209,10 +203,13 @@ header {
     gap: 16px;
 }
 
+.app-guitar-card-overflow {
+    width: 100%;
+}
+
 .app-guitar-card-img {
     width: 100%;
     height: 100%;
-    
 }
 
 .app-guitar-card-header {
