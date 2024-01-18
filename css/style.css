@@ -38,6 +38,12 @@ header {
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
+    transition: 0.3s;
+}
+
+.app-header-nav-li-link:hover {
+    text-shadow: 0 0 5px #05BCCA, 0 0 10px #05BCCA, 0 0 20px #05BCCA;
+    color: white;
 }
 
 .app-header-logo-link {
@@ -45,7 +51,12 @@ header {
     height: 64px;
 }
 
+.app-header-logo:hover {
+    filter: drop-shadow(0 5px 10px red);
+}
+
 .app-header-logo {
+    transition: 0.5s;
     width: 100%;
     height: 100%;
 }
@@ -60,6 +71,11 @@ header {
     border: none;
     background: transparent;
     padding: 0;
+    cursor: pointer;
+}
+
+.app-header-rightSide button img:hover{
+    filter: drop-shadow(0 5px 10px #05BCCA);
 }
 
 .app-header-rightSide button img {
@@ -109,6 +125,13 @@ header {
     height: 24px;
     padding: 0px 6px;
     border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.app-section1-button:hover {
+    background-color: #05BCCA;
+    padding: 0px 1px 0px 11px;
 }
 
 /* section 2 */
@@ -201,10 +224,17 @@ header {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .app-guitar-card-overflow {
     width: 100%;
+}
+
+.app-guitar-card-overflow:hover {
+    box-shadow: 0px 0px 8px 4px rgba(5, 188, 202, 0.80);
+    border: none;
 }
 
 .app-guitar-card-img {
@@ -231,6 +261,17 @@ header {
     display: flex;
     align-items: center;
     column-gap: 8px;
+}
+
+.app-guitar-card-reviews-stars {
+    animation: glow 5s infinite;
+
+}
+
+@keyframes glow {
+    0% { filter: drop-shadow(0 0 4px #99B900); }
+    50% { filter: drop-shadow(0 0 0px #99B900); }
+    100% { filter: drop-shadow(0 0 4px #99B900); }
 }
 
 .app-guitar-card-price_reviews-numb {
@@ -288,7 +329,6 @@ header {
 
 .app-section4-form {
     position: relative;
-
 }
 
 .app-section4-form-button {
@@ -303,6 +343,15 @@ header {
     line-height: 19px;
     border: none;
     right: 0;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+    transition: all ease 0.8s;
+
+}
+
+.app-section4-form-button:hover {
+    box-shadow: inset 119px 0 0 0 #e0e0e0;
+    color: #05BCCA;
 }
 
 /* footer  */
@@ -363,9 +412,28 @@ footer {
     line-height: 24px;
 }
 
+.app-footer-listItem-link:hover {
+    color: #05BCCA;
+}
+
 .app-footer-listItem-cocial-container {
     display: flex;
     column-gap: 16px;
+}
+
+.app-footer-listItem-cocial-container a{
+    width: 32px;
+    height: 32px;
+    transition: all 0.3s linear;
+}
+
+.app-footer-listItem-cocial-container a:hover{
+    transform: scale(1.5);
+}
+
+.app-footer-listItem-cocial-container a img{
+    width: 100%;
+    height: 100%;
 }
 
 .app-footer-copyright {
@@ -402,6 +470,13 @@ footer {
     font-size: 24px;
     font-weight: 700;
     line-height: 37px;
+    transition: 0.5s;
+}
+
+.app-catalog-section1-button:hover {
+    background: #A1C3C9;
+    color: #2C4246;
+    cursor: pointer;
 }
 
 .app-catalog-section1-button-active {
@@ -468,10 +543,29 @@ footer {
     align-items: center;
     gap: 16px;
     border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #C46A2B 50%, #943e01 50%);
+    background-position: left bottom;
+    background-size: 200% 100%;
+    transition: all 0.5s ease;
+}
+
+.app-catalog-section2-pages-previous:hover {
+    background-position: right bottom;
+    padding-inline: 1px 25px;
+    gap: 5px;
 }
 
 .app-catalog-section2-pages-next {
-    background: #05BCCA;
+    background: linear-gradient(to right, #004256 50%, #05BCCA 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.app-catalog-section2-pages-next:hover {
+    background-position: left bottom;
+    padding-inline: 25px 1px;
+    gap: 5px;
 }
 
 .app-catalog-section2-pages-button-text {
@@ -493,6 +587,19 @@ footer {
 .app-catalog-section2-cards-container .app-guitar-card {
     border: none;
     padding: 0 0 16px 0;
+    overflow: hidden;
+}
+
+.app-catalog-section2-cards-container .app-guitar-card:hover {
+    transform: translate(3px, -3px);
+    box-shadow: -3px 3px #05BCCA;
+}
+
+.app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-img {
+    transition: 0.3s ease-in;
+}
+.app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-img:hover {
+    transform: scale(1.15) translateY(-6.52%);
 }
 
 .app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-header{
@@ -558,6 +665,17 @@ footer {
     column-gap: 16px;
 }
 
+.app-contact-section1-contact-info-link:hover {
+    text-shadow: 0 0 2px #05BCCA, 0 0 5px #05BCCA;
+    filter: drop-shadow(2px 2px 5px #05BCCA);
+
+}
+
+.app-contact-section1-contact-location-link:hover {
+    filter: drop-shadow(0px 5px 5px #05BCCA);
+
+}
+
 .app-contact-section1-contact-info-link span {
     color: #D9D9D9;
     font-family: 'Inter', sans-serif;
@@ -614,6 +732,15 @@ footer {
     background: #C46A2B;
     border: none;
     margin-top: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.app-contact-section1-form-button:hover {
+    background-color: transparent;
+    color: #2C4246;
+    font-size: 30px;
 }
 
 .app-contact-section1-bottom-social {
@@ -631,6 +758,11 @@ footer {
 .app-contact-section1-bottom-social-icons a{
     width: 32px;
     height: 32px;
+    transition: 0.5s;
+}
+
+.app-contact-section1-bottom-social-icons a:hover{
+    transform: scale(1.5);
 }
 
 .app-contact-section1-bottom-social-icons a img{
