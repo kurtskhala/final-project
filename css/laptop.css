@@ -74,6 +74,11 @@
         line-height: 32px;
     }
 
+    .app-header-menu-nav-li-link:hover {
+        color: #05BCCA;
+        text-shadow: -3px -3px 1px #C46A2B;
+    }
+
 }
 
 @media (max-width: 1023.5px) {
