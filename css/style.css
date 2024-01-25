@@ -588,6 +588,7 @@ footer {
     border: none;
     padding: 0 0 16px 0;
     overflow: hidden;
+    flex: 1 1 298px;
 }
 
 .app-catalog-section2-cards-container .app-guitar-card:hover {
@@ -596,6 +597,8 @@ footer {
 }
 
 .app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-img {
+    height: 298px;
+    object-fit: cover;
     transition: 0.3s ease-in;
 }
 .app-catalog-section2-cards-container .app-guitar-card .app-guitar-card-img:hover {
